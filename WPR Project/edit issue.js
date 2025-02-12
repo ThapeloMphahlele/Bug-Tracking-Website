@@ -6,7 +6,7 @@ let issues = [
           identifiedBy: "Tshepo Ngozwana",
           identifiedDate: "2022-05-17",
           project: "Project A",
-          assignedTo: "Oratile Kutumela",
+          assignedTo: "Thapelo Mphahlele",
           status: "Open",
           priority: "Medium",
           targetResolutionDate: "2023-05-17",
@@ -19,14 +19,26 @@ let issues = [
           identifiedBy: "Oratile Kutumela",
           identifiedDate: "2023-05-17",
           project: "Project D",
-          assignedTo: "Tshepo Ngozwana",
+          assignedTo: "Thapelo Mphahlele",
           status: "Resolved",
           priority: "High",
           targetResolutionDate: "2023-05-30",
           actualResolutionDate: "2023-05-27",
           resolutionSummary: "Issue fixed."
     },
-    // Add more issue objects as needed
+    {
+          summary: "A brief summary about issue 3",
+          description: "Detailed description of Issue 3",
+          identifiedBy: "Thapelo Mphahlele",
+          identifiedDate: "2022-05-17",
+          project: "Project A",
+          assignedTo: "Oratile Kutumela",
+          status: "Open",
+          priority: "Medium",
+          targetResolutionDate: "2023-05-17",
+          actualResolutionDate: null,
+          resolutionSummary: ""
+    }
   ];
 
   const table = document.getElementById('issueTable');
