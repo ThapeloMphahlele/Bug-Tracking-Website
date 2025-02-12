@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
       var resolutionSummary = document.getElementById('resolution-summary').value;
   
       // Process the issue data (e.g., send to server, store in a database)
-      // Example code for demonstration purposes:
       var issueData = {
         summary: summary,
         description: description,
