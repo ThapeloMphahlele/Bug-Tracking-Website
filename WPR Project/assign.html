@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Assign Issue</title>
+  <link rel="stylesheet" type="text/css" href="assign.css">
+</head>
+<body>
+  <h1>Assign Issue</h1>
+
+  <form id="assign-issue-form">
+    <div>
+      <label for="issue summary">Issue summary:</label>
+      <input type="text" id="issue-name" required>
+    </div>
+    <div>
+      <label for="person-first-name">Person's First Name:</label>
+      <input type="text" id="person-first-name" required>
+    </div>
+    <div>
+      <label for="person-surname">Person's Surname:</label>
+      <input type="text" id="person-surname" required>
+    </div>
+    <div>
+      <label for="person-id">Person's ID:</label>
+      <input type="text" id="person-id" required>
+    </div>
+    <button type="submit">Assign</button>
+  </form>
+
+  <table id="assigned-issues-table">
+    <thead>
+      <tr>
+        <th>Issue summary</th>
+        <th>Person's First Name</th>
+        <th>Person's Surname</th>
+        <th>Person's ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Assigned issues will be added dynamically using JavaScript -->
+    </tbody>
+  </table>
+
+  <script src="assign.js"></script>
+</body>
+</html>

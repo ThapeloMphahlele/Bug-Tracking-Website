@@ -1,0 +1,78 @@
+h1 {
+    text-align: center;
+    color: antiquewhite;
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    color:antiquewhite;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #0bf574;
+  }
+  
+  footer{
+    text-align: center;
+  }
+  
+  body{
+    background-color: rgb(10, 10, 10);
+  }    h1 {
+    text-align: center;
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="file"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: green;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  footer{
+    text-align: center;
+  }
+  
+  body{
+    background-color: grey;
+  }
+  

@@ -1,0 +1,44 @@
+.container {
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    margin: auto ;
+    padding: 20px;
+    background-color: grey;
+  
+    /* Center the form */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label,
+  input {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(3, 3, 3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+   
+  div{
+    text-align: center;
+  }
+  
+  body{
+    background-color: grey;
+  }

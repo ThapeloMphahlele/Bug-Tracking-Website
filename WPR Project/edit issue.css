@@ -1,0 +1,33 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: lightblue;
+  }
+
+  body{
+    background-color: grey;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  th {
+    background-color: lightblue;
+  }
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  form input[type="submit"] {
+    padding: 8px 16px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }

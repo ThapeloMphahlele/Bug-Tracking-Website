@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="view an issue.css">
+</head>
+<body>
+  <h1>Issues</h1>
+    <table id="issueTable">
+        <tr>
+          <th>Summary</th>
+          <th>Description</th>
+          <th>Identified By</th>
+          <th>Identified Date</th>
+          <th>Project</th>
+          <th>Assigned To</th>
+          <th>Status</th>
+          <th>Priority</th>
+          <th>Target Resolution Date</th>
+          <th>Actual Resolution Date</th>
+          <th>Resolution Summary</th>
+        </tr>
+      </table>
+    
+      <script>
+        // Sample data for demonstration
+        const issues = [
+          {
+            summary: "A brief summary about issue 1",
+            description: "Detailed description of Issue 1",
+            identifiedBy: "Tshepo Ngozwana",
+            identifiedDate: "2022-05-17",
+            project: "Project A",
+            assignedTo: "Oratile Kutumela",
+            status: "Open",
+            priority: "Medium",
+            targetResolutionDate: "2023-05-17",
+            actualResolutionDate: null,
+            resolutionSummary: ""
+          },
+          {
+            summary: "Issue 2 brief summary",
+            description: "Detailed description of Issue 2",
+            identifiedBy: "Oratile Kutumela",
+            identifiedDate: "2023-05-17",
+            project: "Project D",
+            assignedTo: "Tshepo Ngozwana",
+            status: "Resolved",
+            priority: "High",
+            targetResolutionDate: "2023-05-30",
+            actualResolutionDate: "2023-05-27",
+            resolutionSummary: "Issue fixed."
+          },
+          // Add more issue objects as needed
+        ];
+    
+        // Create the table
+        const table = document.getElementById('issueTable');
+    
+        // Create table rows for each issue
+        issues.forEach(issue => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${issue.summary}</td>
+            <td>${issue.description}</td>
+            <td>${issue.identifiedBy}</td>
+            <td>${issue.identifiedDate}</td>
+            <td>${issue.project}</td>
+            <td>${issue.assignedTo}</td>
+            <td>${issue.status}</td>
+            <td>${issue.priority}</td>
+            <td>${issue.targetResolutionDate}</td>
+            <td>${issue.actualResolutionDate || '-'}</td>
+            <td>${issue.resolutionSummary}</td>
+          `;
+          table.appendChild(row);
+        });
+      </script>
+      <script src="view an issue.js"></script>
+</body>
+</html>
+  
+

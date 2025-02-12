@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: lightblue;
+  }
+
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+
+  th {
+    background-color: lightblue;
+  }
+
+  body{
+    background-color: grey;
+  }
+
+  h1{
+    text-align: center;
+  }

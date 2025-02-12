@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Issue Form</title>
+  <link rel="stylesheet" type="text/css" href="create issue.css">
+</head>
+<body>
+  <h1>Issue Form</h1>
+
+  <form id="issue-form">
+    <div>
+      <label for="summary">Summary:</label>
+      <input type="text" id="summary" required>
+    </div>
+    <div>
+      <label for="description">Description:</label>
+      <textarea id="description" required></textarea>
+    </div>
+    <div>
+      <label for="identifier">Identified by:</label>
+      <input type="text" id="identifier" required>
+    </div>
+    <div>
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+    </div>
+    <div>
+      <label for="project">Project:</label>
+      <input type="text" id="project" required>
+    </div>
+    <div>
+      <label for="assignee">Assignee:</label>
+      <input type="text" id="assignee" required>
+    </div>
+    <div>
+      <label for="status">Status:</label>
+      <select id="status" required>
+        <option value="">Select status</option>
+        <option value="open">Open</option>
+        <option value="resolved">Resolved</option>
+        <option value="overdue">Overdue</option>
+      </select>
+    </div>
+    <div>
+      <label for="priority">Priority:</label>
+      <select id="priority" required>
+        <option value="">Select priority</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+    </div>
+    <div>
+      <label for="target-resolution-date">Target Resolution Date:</label>
+      <input type="date" id="target-resolution-date" required>
+    </div>
+    <div>
+      <label for="actual-resolution-date">Actual Resolution Date:</label>
+      <input type="date" id="actual-resolution-date" required>
+    </div>
+    <div>
+      <label for="resolution-summary">Resolution Summary:</label>
+      <textarea id="resolution-summary" required></textarea>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+
+  <script src="create issue.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+/* CSS styles from previous examples */
+
+#issue-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  #issue-table th,
+  #issue-table td {
+    padding: 8px;
+    text-align: left;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+  #issue-table th {
+    background-color: lightblue;
+  }
+
+  body{
+    background-color: grey;
+  }
+
+  h1{
+    text-align: center;
+  }
+
+  

@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../prob (1)"
+		},
+		{
+			"path": "../../../../WPR Project"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "WPR Project"
+	}
+}

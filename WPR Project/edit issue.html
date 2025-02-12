@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="edit issue.css">
+</head>
+<body>
+  <form id="issueForm">
+    <label for="summary">Summary:</label>
+    <input type="text" id="summary" required>
+
+    <label for="description">Description:</label>
+    <input type="text" id="description" required>
+
+    <label for="identifiedBy">Identified By:</label>
+    <input type="text" id="identifiedBy" required>
+
+    <label for="identifiedDate">Identified Date:</label>
+    <input type="date" id="identifiedDate" required>
+
+    <label for="project">Project:</label>
+    <input type="text" id="project" required>
+
+    <label for="assignedTo">Assigned To:</label>
+    <input type="text" id="assignedTo" required>
+
+    <label for="status">Status:</label>
+    <select id="status" required>
+      <option value="Open">Open</option>
+      <option value="Resolved">Resolved</option>
+      <option value="Overdue">Overdue</option>
+    </select>
+
+    <label for="priority">Priority:</label>
+    <select id="priority" required>
+      <option value="Low">Low</option>
+      <option value="Medium">Medium</option>
+      <option value="High">High</option>
+    </select>
+
+    <label for="targetResolutionDate">Target Resolution Date:</label>
+    <input type="date" id="targetResolutionDate" required>
+
+    <input type="submit" value="Add Issue">
+  </form>
+
+  <table id="issueTable">
+    <tr>
+      <th>Summary</th>
+      <th>Description</th>
+      <th>Identified By</th>
+      <th>Identified Date</th>
+      <th>Project</th>
+      <th>Assigned To</th>
+      <th>Status</th>
+      <th>Priority</th>
+      <th>Target Resolution Date</th>
+      <th>Actual Resolution Date</th>
+      <th>Resolution Summary</th>
+      <th>Actions</th>
+    </tr>
+  </table>
+
+  <script src="edit issue.js"></script>
+</body>
+</html>
