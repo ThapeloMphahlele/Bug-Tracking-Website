@@ -6,7 +6,7 @@ const issues = [
       identifiedBy: "John Doe",
       identifiedDate: "2023-07-10",
       project: "Project A",
-      assignedTo: "Jane Smith",
+      assignedTo: "Thapelo Mphahlele",
       status: "Open",
       priority: "Medium",
       targetResolutionDate: "2023-07-15",
